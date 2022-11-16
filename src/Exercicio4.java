@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class Exercicio4 {
     public static void main(String[] args){
         double dolar, euro, libra, rublo, iene;
-        double real = 10;
+        Scanner scannerReal = new Scanner(System.in);
+        System.out.println("digite quantos reais deseja converter");
+        double real = scannerReal.nextInt();
 
        dolar = real / 5.16;
        euro = real / 5.18;

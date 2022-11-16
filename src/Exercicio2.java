@@ -1,7 +1,15 @@
+import java.util.Scanner;
+
 public class Exercicio2 {
     public static  void main(String[] args){
-        int fileiras = 10;
-        int cadeiras = 8;
+        Scanner scannerFileiras = new Scanner(System.in);
+        System.out.println("digite o numero de fileiras");
+        int fileiras = scannerFileiras.nextInt();
+
+        Scanner scannerCadeiras = new Scanner(System.in);
+        System.out.println("digite o numero de cadeiras");
+        int cadeiras = scannerCadeiras.nextInt();
+
         int capacidade;
         double reservados;
 

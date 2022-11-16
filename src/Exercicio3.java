@@ -1,6 +1,10 @@
+import java.util.Scanner;
+
 public class Exercicio3 {
     public static void main(String[] args){
-        double kilometros = 1.5;
+        Scanner scannerKm = new Scanner(System.in);
+        System.out.println("digite a kilometragem");
+        double kilometros = scannerKm.nextInt();
         double milhas;
 
         milhas = kilometros / 1.609;
