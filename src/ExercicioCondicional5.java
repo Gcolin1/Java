@@ -10,14 +10,13 @@ public class ExercicioCondicional5 {
         Random sorteio = new Random();
         int numeroSorteado = sorteio.nextInt(6);
 
-        if (num == numeroSorteado){
-            System.out.println(num);
+        if (num > 6 || num < 0) {
+            System.out.println("Numero inválido");
+        }else if (num == numeroSorteado){
             System.out.println("Parabens o numero " + num + " Foi sorteado");
-        }else {
-            System.out.println(num);
+        }else if (num != numeroSorteado){
             System.out.println("O numero sorteado foi " + numeroSorteado + " tente novamente");
         }
-
 
     }
 }
