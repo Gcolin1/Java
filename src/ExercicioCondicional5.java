@@ -8,7 +8,7 @@ public class ExercicioCondicional5 {
         int num = scannerNum.nextInt();
 
         Random sorteio = new Random();
-        int numeroSorteado = sorteio.nextInt(6);
+        int numeroSorteado = sorteio.nextInt(1, 7);
 
         if (num > 6 || num < 0) {
             System.out.println("Numero inválido");
