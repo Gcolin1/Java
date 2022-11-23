@@ -18,7 +18,10 @@ public class Exercicio5 {
             }
         }
 
-        System.out.println("Existem " + ocorrencias + " da letra " + letra + " na palavra " + palavra);
-
+        if(ocorrencias == 0){
+            System.out.println("Não existem ocorrencias da letra " + letra + " na palavra " + palavra);
+        }else {
+            System.out.println("Existem " + ocorrencias + " ocorrencias da letra " + letra + " na palavra " + palavra);
+        }
     }
 }
