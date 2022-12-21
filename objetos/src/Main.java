@@ -1,3 +1,5 @@
+/* import Notas.Aluno;
+
 public class Main {
     public static void main(String[] args) {
         int quantidadeDeAlunos = 3;
@@ -7,7 +9,7 @@ public class Main {
         for(int i = 0; i < quantidadeDeAlunos; i++){
             Aluno aluno = new Aluno();
 
-            aluno.nome = leitor.lerString("Digite o nome do aluno: ");
+            aluno.nome = leitor.lerString("digite o nome do aluno: ");
             aluno.email = leitor.lerString("Digite o email do aluno: ");
             aluno.idade = leitor.lerInteiro("Digite a idade do aluno: ");
 
@@ -19,3 +21,5 @@ public class Main {
         }
     }
 }
+
+*/
